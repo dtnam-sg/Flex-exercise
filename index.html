@@ -7,10 +7,8 @@
 
     <link rel="stylesheet" href="reset.css" />
     <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
@@ -27,33 +25,40 @@
             <a href="index.html" class="header__logo">
               <img src="logo.png" alt="" />
             </a>
-            <ul class="header__menu">
-              <li class="header__menu-item">
-                <a href="#" class="header__menu-link">
-                  Home
-                </a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#" class="header__menu-link">
-                  About us
-                </a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#" class="header__menu-link">
-                  Offer
-                </a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#" class="header__menu-link">
-                  Portfolio
-                </a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#" class="header__menu-link">
-                  Contact
-                </a>
-              </li>
-            </ul>
+            <nav>
+              <label for="toggle" class="toggle-label">
+                <i class="fas fa-bars"></i>
+              </label>
+              <input type="checkbox" id="toggle" class="toggle-input" />
+              <div class="header__menu-overlay"></div>
+              <ul class="header__menu">
+                <li class="header__menu-item">
+                  <a href="#" class="header__menu-link">
+                    Home
+                  </a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="#" class="header__menu-link">
+                    About us
+                  </a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="#" class="header__menu-link">
+                    Offer
+                  </a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="#" class="header__menu-link">
+                    Portfolio
+                  </a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="#" class="header__menu-link">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
           <div class="header__content">
             <h1 class="header__content-title">Lorem ipsum dolor sit amet</h1>
